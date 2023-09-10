@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg,#f85f5f,#716969,#00C1FF );
+    background-size:400% 400% ;
+    animation: fanimado 10s ease infinite;
+}
+
+@keyframes fanimado {
+    0%{
+background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+p,ul {
+    margin: 0 0 1.5em;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.4em;
+    margin: 0 0 .4em;
+    font-weight: bold;
+}
+
+button{
+    width: 30%;
+    height: 50%;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    border: none;
+}
+
+button:hover{
+    background: rgb(180, 180, 180);
+}
+
+div.Swift{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+
+div.Compass{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+div.GTO{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 110px;
+    left: 950px;
+}
+
+div.Colorado{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+}
+
+div.Corolla{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 690px;
+    left: 500px;
+}
+
+div.Prado{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 660px;
+    left: 950px;
+}
+
+div.Elantra{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top:1280px;
+    left: 50px;
+}
+
+div.VANN300{
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top:1260px;
+    left: 550px;
+}
+
+article {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 10px 20px 0 20px;
+    margin: 10px 0;
+}
+
+article p {
+    text-align: justify;
+}
+
+header {
+    background: #1c1c1c;
+    padding: 15px 100px;
+    overflow: hidden;
+}
+
+h1.logo a{
+    color: #d8d8d8;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    letter-spacing: 0.2;
+}
+
+a.ir_nav {
+    float: right;
+    color: #fff;
+    background: #4e4e4e;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+}
+
+a.ir_nav:hover, a.ir_nav:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+
+#menu ul {
+    list-style: none;
+    background: #1c1c1c;
+    padding: 5px 0;
+}
+
+#menu li a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 2em;
+    border-bottom: 1px solid #383838;
+}
+
+#menu li:last-child a {
+    border-bottom: none;
+}
+
+#menu li a:hover, #menu li a:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+
+@media only screen and (min-width: 1000px){
+    a.ir_nav {
+        display: none;
+    }
+    section {
+        width: 86%;
+        margin: auto;
+    }
+    #menu{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        background: none;
+    }
+    #menu li {
+        display: inline-block;
+    }
+    #menu li a {
+        border: none;
+        padding: 0 10px;
+        border-radius: 2px;
+    }
+    #menu li.top {
+        display: none;
+    }
+
+}
