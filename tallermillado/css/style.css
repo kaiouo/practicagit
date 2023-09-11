@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mensaje{
+    border-radius:4px;
+    padding: .5rem;
+    
+    flex-direction: row;
+    max-width: 30%;
+    margin: 1rem;
+}
+.advice{
+  background-color: rgb(251, 254, 255);
+  border: solid 2px rgb(143, 110, 110); 
+  color: rgb(62,106,107); 
+}
+.mensaje i{
+    font-size: 2rem;
+}
+button{
+    min-width: 4rem;
+}
